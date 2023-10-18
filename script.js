@@ -13,6 +13,7 @@ totalVentas = v1 + v2 + v3;
 comision = totalVentas * 0.1;
 totalPagar = comision + salarioBase
 
+alert('El pago total será de: ' + totalPagar)
 console.log(totalVentas)
 console.log(comision)
 console.log(totalPagar)
